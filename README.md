@@ -54,7 +54,6 @@ We integrate these components to build a real-time img2img pipeline with audio i
 ## 🚧 Future Work
 
 We plan to incorporate the training strategy proposed in the SwiftEdit project to address the limitation that StreamDiffusion cannot perform fine-grained local edits.
-
-- **[SwiftEdit](https://github.com/lucidrains/swiftedit)**
+- **[SwiftEdit](https://github.com/Qualcomm-AI-research/SwiftEdit)**
 
 
