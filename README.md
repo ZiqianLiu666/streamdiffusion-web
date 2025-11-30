@@ -20,7 +20,7 @@ The backend is implemented with **FastAPI + WebSocket** and uses **StreamDiffusi
 
 ## Models & Dependencies
 
-- **Stable Diffusion Turbo** – `stabilityai/sd-turbo`
+- **Stable Diffusion Turbo** – `stabilityai/sdxl-turbo`
 - **StreamDiffusion** – `real-time diffusion acceleration`
 - **RVM (Robust Video Matting)** – `human matting`
 - **IP-Adapter** – `Apply Image Prompt to Cross-Attention`
