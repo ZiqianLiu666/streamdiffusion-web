@@ -1,0 +1,13 @@
+# 比较最好的基底模型
+    # 处理视频
+    python evaluate/test_instruct_pix2pix.py \
+        --video evaluate/data/test_video.mp4 \
+        --prompt "Remove person's glasses" \
+        --num-steps 2 \
+        --max-frames 100 \
+        --stride 1
+    # 处理单张图像
+    python evaluate/test_instruct_pix2pix.py \
+        --image evaluate/data/glasses.png \
+        --prompt "Remove person's glasses" \
+        --num-steps 4
