@@ -17,10 +17,10 @@ The backend is implemented with **FastAPI + WebSocket** and uses **StreamDiffusi
 ## Models & Dependencies
 
 - **Stable Diffusion Turbo** – `stabilityai/sd-turbo`
-- **StreamDiffusion** – real-time diffusion acceleration
-- **RVM (Robust Video Matting)** – human matting
-- **Whisper (open-source)** – speech-to-text
-- **TinyVAE (TAESD)** – lightweight VAE for fast decoding
+- **StreamDiffusion** – `real-time diffusion acceleration`
+- **RVM (Robust Video Matting)** – `human matting`
+- **Whisper (open-source)** – `speech-to-text`
+- **TinyVAE (TAESD)** – `lightweight VAE for fast decoding`
 
 ## Main Features
 
