@@ -23,26 +23,9 @@ The backend is implemented with **FastAPI + WebSocket** and uses **StreamDiffusi
 - **Stable Diffusion Turbo** – `stabilityai/sd-turbo`
 - **StreamDiffusion** – `real-time diffusion acceleration`
 - **RVM (Robust Video Matting)** – `human matting`
-- **Whisper (open-source)** – `speech-to-text`
-- **TinyVAE (TAESD)** – `lightweight VAE for fast decoding`
-
-## Main Features
-
-- **Real-time img2img with StreamDiffusion**
-  - Based on SD-Turbo (`stabilityai/sd-turbo`) by default.
-  - Optimized for streaming: denoising batch, frame buffer, partial steps, etc.
-- **Two editing modes**
-  - `full` – run img2img on the whole frame.
-  - `human` – use RVM to extract a soft alpha matte and only replace the human foreground, keeping the original background.
-- **Speech-to-text integration**
-  - `Speech2txt` -  Speech-to-Text based on open sourced Whisper.
-- **FastAPI REST + WebSocket API**
-  - WebSocket channel for control and frame upload.
-  - MJPEG streaming endpoint for generated frames.
-  - JSON settings endpoint for front-end auto-configuration.
-- **Acceleration & optimizations**
-  - Optional **TinyVAE** (`madebyollin/taesd`) for faster VAE.
-  - Support for **xFormers** and **TensorRT** acceleration engines.
+- **IP-Adapter** – `Apply Image Prompt to Cross-Attention`
+- **Whisper** – `speech-to-text`
+- **TinyVAE** – `lightweight VAE for fast decoding`
 
 ## Environment Setup
 
