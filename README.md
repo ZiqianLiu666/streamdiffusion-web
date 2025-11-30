@@ -57,18 +57,17 @@ python main.py
 
 This project is mainly built upon the following open-source repositories:
 
-StreamDiffusion: `https://github.com/cumulo-autumn/StreamDiffusion`
-
-OpenAI Whisper: `https://github.com/openai/whisper`
-
-Robust Video Matting (RVM): `https://github.com/PeterL1n/RobustVideoMatting`
-
-IP-Adapter: `https://github.com/tencent-ailab/IP-Adapter`
+- **[StreamDiffusion](https://github.com/cumulo-autumn/StreamDiffusion)**
+- **[OpenAI Whisper](https://github.com/openai/whisper)**
+- **[Robust Video Matting (RVM)](https://github.com/PeterL1n/RobustVideoMatting)**
+- **[IP-Adapter](https://github.com/tencent-ailab/IP-Adapter)**
 
 We integrate these components to build a real-time img2img pipeline with audio input, video matting, and image-conditioned control.
 
 ## 🚧 Future Work
 
-We plan to incorporate the training strategy proposed in the SwiftEdit project to address the limitation that StreamDiffusion cannot perform fine-grained local edits. SwiftEdit: `https://github.com/lucidrains/swiftedit`
+We plan to incorporate the training strategy proposed in the SwiftEdit project to address the limitation that StreamDiffusion cannot perform fine-grained local edits.
+
+- **[SwiftEdit](https://github.com/lucidrains/swiftedit)**
 
 
