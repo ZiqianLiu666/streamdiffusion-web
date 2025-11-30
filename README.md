@@ -1,3 +1,5 @@
+# StreamDiffusion-Web
+
 Course project for **CSC_51073_EP – Analyse d'Image et Vision par Ordinateur**  
 Realtime "Speak & Draw" system based on StreamDiffusion, Stable Diffusion Turbo and real-time matting.
 
